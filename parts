@@ -1,4 +1,15 @@
-Electronics:
+Electrical parts:
 - Arduino Uno: https://no.rs-online.com/web/p/arduino/7154081
 - LCD display with I2C: https://no.farnell.com/dfrobot/dfr0063/lcd-display-module-i2c-16x2-arduino/dp/3769973
-- 
+- Stepper motor: https://no.rs-online.com/web/p/stepper-motors/5350401
+- Power connector: https://no.rs-online.com/web/p/dc-power-connectors/2596524
+- Power supply: https://no.rs-online.com/web/p/ac-dc-adapters/2064915
+- DC/DC converter for motor: https://no.rs-online.com/web/p/switching-regulators/1666149
+- Potentiometer: https://no.rs-online.com/web/p/potentiometers/8427002
+- Power Switch:
+- On/Off button:
+- Motor driver:
+- Jumper wires to connect the display, button, potentiometer and motor driver.
+
+Mechanical parts:
+- M3 screws with 
