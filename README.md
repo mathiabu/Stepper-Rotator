@@ -9,7 +9,7 @@ Mounting instructions (Version A):
 2. Some of the files contains engravemt (Side-B right, Side-A, Back). You have to align the engravement with the cutted parts and create and overlay to only remove the difference in the software of your lasercutter. For both versions this is a Hex-nut for the power connector. In version A engrave only the scale for the tilt. If you want it on both sides, mirrow it. For version B, engrave rectengular structure on side-B-right to fix the servomotor. All engravements should be 1-2 mm deep.
 3. 3D-print the stl files in a hard material using a FDM- or DLP-based printer. Use enough infill to be able to tap a thread later on. Print the mounting cubes 4x each (normal and mirrowed) and the front bar only 1x.
 4. Use a drilling machine with a countersink bit to drill countersinks on the outer parts of sides, the front and the back.
-5. Use a hand tapping tool with M3 thread to tap threads in all mounting cubes, the front bar, the front and the adapter parts. Use a M2 tapping tool for the rotator fixing thread.
+5. Use a hand tapping tool with M3 thread to tap threads in all mounting cubes, the front bar, the front and the adapter parts.
 6. Mount the Arduino board at the bottom so that the USB port faces the backside using 5mm long distance rolls with M3 thread stack 10 mm distance rolls on top of them to mount the custome made arduino shield later on. Mount the power socket and the power switch on the backside. Mount the motor on the top plate using short M3 screws. Screw a long M3 screw to both adapter parts so that the screw head faces inside and the screw sticks out on both sides. Mount the LCD display using 5mm M3 distance rolls, the potentiometer and the On/off button to the fron panel.
 7. Mount the adapters to the side parts and loosely fix it with wing nuts. Bot adapters should be symmetrically mounted. Mount the motor to the top plate.
 8. Solder a red wire from the (+) pole of the connector to the power switch. Solder a red wire (min 15 cm long) to the other pole of the power switch with an open end. Solder a black wire with an open end to the (-) pole of the the power connector (min 15 cm). Solder a 3-pin female connector (pitch 2.54 mm) to the potentiometer and a 2-pin female connector (pitch 2.54 mm) to the on/off button with 15 cm long wires.
@@ -23,4 +23,4 @@ Mounting instructions (Rotor):
 2.  3d print the rotor part with an FDM or SLA printer.
 3.  Tap a M3 thread in the 4 bigger holes and a M2 thread in the smaller hole that is mounted to the motor shaft.
 4.  Drill countersinks in the thinner acrylic part and tap M3 threads in the 5 mm acrylic sheet.
-5.  Mount the lower, the upper and the 3d-printed part using countersink M3 screws.
+5.  Mount the thinner and the thicker acrylic sheet together with the 3d-printed part using countersink M3 screws.
