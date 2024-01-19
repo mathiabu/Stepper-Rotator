@@ -1,7 +1,14 @@
 # Stepper-Rotator
-Rotation machine for recirculating Organ-on-Chip systems. There are currently 2 versions of the machine: (A) with manual tilt adjustment and (B) with servo-motor controlled tilt adjust.
+Rotation machine for recirculating Organ-on-Chip systems. There are currently 2 versions of the machine: (A) with manual tilt adjustment and (B) with servo-motor controlled tilt adjust. As seen in the image of the fully mounted device, it consists of a main body and a changeable rotor that holds the chips. 
 
-Mounting instructions (Version A):
+Usage instructions (Version A):
+1. Mount the rotor and place the plates/chips.
+2. Set the desired tilt by loosening, moving and tightening the wing nuts on the side.
+3. Connect the machine to the power supply (9-12 V) and turn it on (at the backside).
+4. While the motor is off (after startup) you can adjust the speed between 0 and 2.5 rpm and also change the rotation direction (clockwise (CW) or counterclockwise (CCW)) by turning the knob.
+5. To run the motor, press the on/off button. The user input is blocked while the motor is running. If you want to change the speed, turn the motor off, adjust the speed and run it again.
+
+Mounting instructions of the body (Version A):
 1. Laser-cut DXF files into acrylic. Use following thickness for the different parts: Back, Front, Bottom and Side: 5 mm, Top: 1.5 mm, Adapter: 6 mm. Use 2x Adapter-left and 2xSide-A. Delete the text and angle scale in Side-A and engrave this in the second step.
 2. Some of the files contains engravemt (Side-A, Back). You have to align the engravement with the cutted parts and create and overlay to only remove the difference in the software of your lasercutter. For both versions this is a Hex-nut for the power connector. In version A engrave only the scale for the tilt. If you want it on both sides, mirrow it. All engravements should be 1-2 mm deep.
 3. 3D-print the stl files in a hard material using a FDM- or DLP-based printer. Use enough infill to be able to tap a thread later on. Print the mounting cubes 4x each (normal and mirrowed) and the front bar only 1x.
