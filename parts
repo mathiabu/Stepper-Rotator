@@ -4,7 +4,6 @@ Electrical parts:
 - Stepper motor: https://no.rs-online.com/web/p/stepper-motors/5350401
 - Power connector: https://no.rs-online.com/web/p/dc-power-connectors/2596524
 - Power supply: https://no.rs-online.com/web/p/ac-dc-adapters/2064915
-- DC/DC converter for motor: https://no.rs-online.com/web/p/switching-regulators/1666149
 - Potentiometer: https://no.rs-online.com/web/p/potentiometers/8427002
 - Power Switch:
 - On/Off button:
@@ -26,3 +25,7 @@ Equipment and tools:
 - Manual thread making set with M2 and M3 dies
 - Screwdriver & wrench (fitting to selected screws)
 - Drilling machine with 2.5 mm drilling bit.
+
+Arduino shield:
+- DC/DC converter for motor: https://no.rs-online.com/web/p/switching-regulators/1666149
+- 
