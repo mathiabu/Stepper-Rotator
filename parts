@@ -6,9 +6,11 @@ Electrical parts:
 - Power supply: https://no.rs-online.com/web/p/ac-dc-adapters/2064915
 - Potentiometer: https://no.rs-online.com/web/p/potentiometers/8427002
 - Power Switch:
-- On/Off button:
-- Motor driver:
+- On/Off button: 
+- Motor driver: https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview
+- DC/DC converter for the motor: https://no.rs-online.com/web/p/switching-regulators/1666149
 - Jumper wires amd normal wires with different colors.
+- 100 uF capacitor, 10 kOhm resistor
 - Female connector with 2.54 mm pitch with 2 and 3 pins.
 
 Mechanical parts:
@@ -26,6 +28,3 @@ Equipment and tools:
 - Screwdriver & wrench (fitting to selected screws)
 - Drilling machine with 2.5 mm drilling bit.
 
-Arduino shield:
-- DC/DC converter for motor: https://no.rs-online.com/web/p/switching-regulators/1666149
-- 
