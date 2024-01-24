@@ -27,3 +27,5 @@ Equipment and tools:
 - Manual thread making set with M2 and M3 dies
 - Screwdriver & wrench (fitting to selected screws)
 - Drilling machine with 2.5 mm drilling bit.
+- USB-A cable to programm Arduino
+- Arduino programming suite
