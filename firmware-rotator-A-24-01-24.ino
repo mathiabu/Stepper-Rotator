@@ -36,10 +36,10 @@ void toggleMotor() {
 }
 
 void setup() {
-  // Set PWM modulation frequency to 500 Hz
-  AFMS.begin(500);
+  // Set PWM modulation frequency to 4000 Hz
+  AFMS.begin(4000);
   // put your setup code here, to run once:
-  myMotor = AFMS.getStepper(STEPS/MICROSTEP,1);
+  myMotor = AFMS.getStepper(STEPS/MICROSTEP,2);
   myMotor->setSpeed(1);
   myMotor->release();
   // set the time for button debouncing
@@ -85,13 +85,13 @@ void loop() {
       lcd.setCursor(0, 0);         // move cursor to second row
       lcd.print("Dir: ");
       // Set direction based on polarity: negative: counterclockwise rotation (CCW). positive: clockwise rotation (CW)
-      if(speed_ < 0) {
-        direction_ = BACKWARD;
+      if(speed_ > 0) {
+        direction_ = FORWARD;
         lcd.print("CCW");
       }
       else {
         lcd.print("CW ");
-        direction_ = FORWARD;
+        direction_ = BACKWARD;
       }
      
       lcd.setCursor(0, 1);         // move cursor to second row
